@@ -3,6 +3,7 @@
 You need ports `80` and `5173` to be available, and docker to be installed and running on your machine, since we are going to use Laravel sail. 
 
 - Clone a project and navigate there using CLI
+- Execute `composer install`
 - Execute `./vendor/bin/sail up -d`
 - Execute `touch database/database.sqlite`
 - Execute `./vendor/bin/sail artisan migrate`
