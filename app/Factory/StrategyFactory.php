@@ -2,7 +2,6 @@
 
 namespace App\Factory;
 
-use App\Exceptions\NoSuitableStrategyException;
 use App\Strategy\WinStrategyInterface;
 use App\Strategy\WinStrategyOver300;
 use App\Strategy\WinStrategyOver600;
@@ -10,6 +9,10 @@ use App\Strategy\WinStrategyOver900;
 use App\Strategy\WinStrategyUnder300;
 use Exception;
 
+/**
+ * Class StrategyFactory
+ * @package App\Factory\StrategyFactory
+ */
 class StrategyFactory
 {
     /** @var int $number */
